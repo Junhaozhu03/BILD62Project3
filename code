@@ -1,0 +1,7 @@
+import pandas as pd
+df = pd.read_csv('velocity.csv')
+df
+row_index = 'animal'
+animal_df=df.set_index(row_index)
+animal_df
+animal_df.describe()
